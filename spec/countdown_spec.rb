@@ -23,3 +23,19 @@ describe 'LOOPS' do
   end
 
 end
+def countdown(seconds)
+  while seconds > 0
+    puts "#{seconds} SECOND(S)!"
+    sleep(1) # Pauses the program for 1 second
+    seconds -= 1
+  end
+  "HAPPY NEW YEAR!"
+end
+def countdown_with_sleep(seconds)
+  while seconds > 0
+    puts "#{seconds} SECOND(S)!"
+    sleep(1)
+    seconds -= 1
+  end
+  "HAPPY NEW YEAR!"
+end
